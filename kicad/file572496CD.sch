@@ -1,0 +1,759 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:prj
+LIBS:capteurs
+LIBS:hclock-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "hclock"
+Date "2016-06-23"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F030K6 U2
+U 1 1 572496D7
+P 5550 3650
+F 0 "U2" H 4000 5250 50  0000 C CNN
+F 1 "STM32F030K6" H 6850 2050 50  0000 C CNN
+F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 5550 3550 50  0001 C CIN
+F 3 "http://www.farnell.com/datasheets/1883133.pdf" H 5550 3650 50  0001 C CNN
+F 4 "http://fr.farnell.com/stmicroelectronics/stm32f030k6t6/mcu-32-bits-cortex-m0-48mhz-lqfp/dp/2432085?ost=STM32F030K6&selectedCategoryId=&categoryNameResp=Toutes%2Bles%2Bcat%25C3%25A9gories" H 5550 3650 60  0001 C CNN "buy"
+F 5 "1.30" H 5550 3650 60  0001 C CNN "price"
+	1    5550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5724A17F
+P 5550 5600
+F 0 "#PWR015" H 5550 5350 50  0001 C CNN
+F 1 "GND" H 5550 5450 50  0000 C CNN
+F 2 "" H 5550 5600 50  0000 C CNN
+F 3 "" H 5550 5600 50  0000 C CNN
+	1    5550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW8
+U 1 1 5724B36F
+P 2850 1750
+F 0 "SW8" H 3000 1860 50  0000 C CNN
+F 1 "SW_PUSH" H 2850 1670 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 2850 1750 50  0001 C CNN
+F 3 "" H 2850 1750 50  0000 C CNN
+	1    2850 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5724B4D8
+P 2850 2200
+F 0 "#PWR016" H 2850 1950 50  0001 C CNN
+F 1 "GND" H 2850 2050 50  0000 C CNN
+F 2 "" H 2850 2200 50  0000 C CNN
+F 3 "" H 2850 2200 50  0000 C CNN
+	1    2850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5724B4F2
+P 3100 1900
+F 0 "C2" H 3125 2000 50  0000 L CNN
+F 1 "0.1uf" H 3125 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3138 1750 50  0001 C CNN
+F 3 "" H 3100 1900 50  0000 C CNN
+	1    3100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5724B69A
+P 4250 1350
+F 0 "C6" H 4275 1450 50  0000 L CNN
+F 1 "100nf" H 4275 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4288 1200 50  0001 C CNN
+F 3 "" H 4250 1350 50  0000 C CNN
+	1    4250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 5724B717
+P 4700 1350
+F 0 "C7" H 4725 1450 50  0000 L CNN
+F 1 "4.7uf" H 4725 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4738 1200 50  0001 C CNN
+F 3 "" H 4700 1350 50  0000 C CNN
+F 4 "http://fr.farnell.com/multicomp/mc0603x475k6r3ct/condensateur-mlcc-x5r-4-7uf-6/dp/2320811?selectedCategoryId=&exaMfpn=true&categoryId=&searchRef=SearchLookAhead" H 4700 1350 60  0001 C CNN "buy"
+F 5 "0.0514" H 4700 1350 60  0001 C CNN "Field5"
+	1    4700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5724B7BE
+P 4250 1700
+F 0 "#PWR017" H 4250 1450 50  0001 C CNN
+F 1 "GND" H 4250 1550 50  0000 C CNN
+F 2 "" H 4250 1700 50  0000 C CNN
+F 3 "" H 4250 1700 50  0000 C CNN
+	1    4250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5724B9A7
+P 6000 1350
+F 0 "C8" H 6025 1450 50  0000 L CNN
+F 1 "4.7uf" H 6025 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6038 1200 50  0001 C CNN
+F 3 "" H 6000 1350 50  0000 C CNN
+	1    6000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 5724BA3B
+P 6450 1350
+F 0 "C9" H 6475 1450 50  0000 L CNN
+F 1 "100nf" H 6475 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6488 1200 50  0001 C CNN
+F 3 "" H 6450 1350 50  0000 C CNN
+	1    6450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5724BAFB
+P 6450 1700
+F 0 "#PWR018" H 6450 1450 50  0001 C CNN
+F 1 "GND" H 6450 1550 50  0000 C CNN
+F 2 "" H 6450 1700 50  0000 C CNN
+F 3 "" H 6450 1700 50  0000 C CNN
+	1    6450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5724BBA7
+P 3850 1350
+F 0 "C5" H 3875 1450 50  0000 L CNN
+F 1 "100nf" H 3875 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3888 1200 50  0001 C CNN
+F 3 "" H 3850 1350 50  0000 C CNN
+	1    3850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 5724BC60
+P 6900 1350
+F 0 "C10" H 6925 1450 50  0000 L CNN
+F 1 "100nf" H 6925 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6938 1200 50  0001 C CNN
+F 3 "" H 6900 1350 50  0000 C CNN
+	1    6900 1350
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 1050 0    60   ~ 0
+Close to pin 17
+Text Notes 6100 1050 0    60   ~ 0
+Close to pin 1
+$Comp
+L +3V3 #PWR019
+U 1 1 5724BE77
+P 4700 800
+F 0 "#PWR019" H 4700 650 50  0001 C CNN
+F 1 "+3V3" H 4700 940 50  0000 C CNN
+F 2 "" H 4700 800 50  0000 C CNN
+F 3 "" H 4700 800 50  0000 C CNN
+	1    4700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR020
+U 1 1 5724BE9D
+P 6000 800
+F 0 "#PWR020" H 6000 650 50  0001 C CNN
+F 1 "+3V3" H 6000 940 50  0000 C CNN
+F 2 "" H 6000 800 50  0000 C CNN
+F 3 "" H 6000 800 50  0000 C CNN
+	1    6000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 5724C035
+P 7850 1350
+F 0 "C11" H 7875 1450 50  0000 L CNN
+F 1 "10nf" H 7875 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7888 1200 50  0001 C CNN
+F 3 "" H 7850 1350 50  0000 C CNN
+	1    7850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 5724C09E
+P 8300 1350
+F 0 "C12" H 8325 1450 50  0000 L CNN
+F 1 "1uf" H 8325 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8338 1200 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1723229.pdf" H 8300 1350 50  0001 C CNN
+F 4 "http://fr.farnell.com/multicomp/mcmlr50v105my5v/condensateur-ceramique-y5v-1uf/dp/2112910" H 8300 1350 60  0001 C CNN "buy"
+F 5 "0.428" H 8300 1350 60  0001 C CNN "Field5"
+	1    8300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR021
+U 1 1 5724C0CB
+P 7850 800
+F 0 "#PWR021" H 7850 650 50  0001 C CNN
+F 1 "+3V3" H 7850 940 50  0000 C CNN
+F 2 "" H 7850 800 50  0000 C CNN
+F 3 "" H 7850 800 50  0000 C CNN
+	1    7850 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 5724C159
+P 8100 1700
+F 0 "#PWR022" H 8100 1450 50  0001 C CNN
+F 1 "GND" H 8100 1550 50  0000 C CNN
+F 2 "" H 8100 1700 50  0000 C CNN
+F 3 "" H 8100 1700 50  0000 C CNN
+	1    8100 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 7900 1050 0    60   ~ 0
+Close to pin 5
+$Comp
+L CONN_02X02 P3
+U 1 1 5724C4F6
+P 3100 2700
+F 0 "P3" H 3100 2850 50  0000 C CNN
+F 1 "CONN_02X02" H 3100 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02" H 3100 1500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/683533.pdf" H 3100 1500 50  0001 C CNN
+F 4 "http://fr.farnell.com/global-connector-technology/bg040-04-a-0450-0300-n-g/board-board-connector-header-4way/dp/1798962?ost=XG8T-0441&selectedCategoryId=&categoryNameResp=Toutes%2Bles%2Bcat%25C3%25A9gories" H 3100 2700 60  0001 C CNN "buy"
+F 5 "0.175" H 3100 2700 60  0001 C CNN "price"
+	1    3100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5724C609
+P 2650 2650
+F 0 "#PWR023" H 2650 2400 50  0001 C CNN
+F 1 "GND" H 2650 2500 50  0000 C CNN
+F 2 "" H 2650 2650 50  0000 C CNN
+F 3 "" H 2650 2650 50  0000 C CNN
+	1    2650 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR024
+U 1 1 5724C637
+P 2400 2750
+F 0 "#PWR024" H 2400 2600 50  0001 C CNN
+F 1 "+3V3" H 2400 2890 50  0000 C CNN
+F 2 "" H 2400 2750 50  0000 C CNN
+F 3 "" H 2400 2750 50  0000 C CNN
+	1    2400 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X05 P4
+U 1 1 5724CA62
+P 4100 6400
+F 0 "P4" H 4100 6700 50  0000 C CNN
+F 1 "CONN_01X05" V 4200 6400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 4100 6400 50  0001 C CNN
+F 3 "http://www.harwin.com/include/downloads/drawings/M20-999.PDF" H 4100 6400 50  0001 C CNN
+F 4 "http://fr.farnell.com/harwin/m20-9990546/embase-1-rangee-5-voies/dp/1022253" H 4100 6400 60  0001 C CNN "buy"
+F 5 "0.121" H 4100 6400 60  0001 C CNN "price"
+	1    4100 6400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR025
+U 1 1 5724CB59
+P 4400 6050
+F 0 "#PWR025" H 4400 5900 50  0001 C CNN
+F 1 "+3V3" H 4400 6190 50  0000 C CNN
+F 2 "" H 4400 6050 50  0000 C CNN
+F 3 "" H 4400 6050 50  0000 C CNN
+	1    4400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 5724CC23
+P 4400 6750
+F 0 "#PWR026" H 4400 6500 50  0001 C CNN
+F 1 "GND" H 4400 6600 50  0000 C CNN
+F 2 "" H 4400 6750 50  0000 C CNN
+F 3 "" H 4400 6750 50  0000 C CNN
+	1    4400 6750
+	1    0    0    -1  
+$EndComp
+Text Label 4450 6300 0    60   ~ 0
+RESET
+Text Label 4450 6400 0    60   ~ 0
+SWCLK
+Text Label 4450 6500 0    60   ~ 0
+SWDIO
+Text Label 3100 1450 0    60   ~ 0
+RESET
+Text Label 7500 3850 0    60   ~ 0
+SWCLK
+Text Label 7500 3750 0    60   ~ 0
+SWDIO
+$Comp
+L C C3
+U 1 1 5724D7BC
+P 2550 4650
+F 0 "C3" H 2575 4750 50  0000 L CNN
+F 1 "22pf" H 2575 4550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 4500 50  0001 C CNN
+F 3 "" H 2550 4650 50  0000 C CNN
+	1    2550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5724D81B
+P 3500 4650
+F 0 "C4" H 3525 4750 50  0000 L CNN
+F 1 "22pf" H 3525 4550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3538 4500 50  0001 C CNN
+F 3 "" H 3500 4650 50  0000 C CNN
+	1    3500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 5724D858
+P 2550 5000
+F 0 "#PWR027" H 2550 4750 50  0001 C CNN
+F 1 "GND" H 2550 4850 50  0000 C CNN
+F 2 "" H 2550 5000 50  0000 C CNN
+F 3 "" H 2550 5000 50  0000 C CNN
+	1    2550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 5724D88C
+P 3500 5000
+F 0 "#PWR028" H 3500 4750 50  0001 C CNN
+F 1 "GND" H 3500 4850 50  0000 C CNN
+F 2 "" H 3500 5000 50  0000 C CNN
+F 3 "" H 3500 5000 50  0000 C CNN
+	1    3500 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 3900 6000 0    60   ~ 0
+Debug
+Text Label 8050 2450 0    60   ~ 0
+SEG0
+Text Label 8050 2550 0    60   ~ 0
+SEG1
+Text Label 8050 2650 0    60   ~ 0
+SEG2
+Text Label 8050 2750 0    60   ~ 0
+SEG3
+Text Label 8050 3950 0    60   ~ 0
+SEG4
+Text Label 8050 2950 0    60   ~ 0
+SEG5
+Text Label 8050 3050 0    60   ~ 0
+SEG6
+Text Label 8050 3150 0    60   ~ 0
+SEG7
+Text Label 8050 3250 0    60   ~ 0
+DIGIT0
+Text Label 8050 4750 0    60   ~ 0
+DIGIT1
+Text Label 8050 4850 0    60   ~ 0
+DIGIT2
+Text Label 8050 3550 0    60   ~ 0
+DIGIT3
+Text Label 8050 3650 0    60   ~ 0
+SWITCH0
+Text Label 8050 4250 0    60   ~ 0
+BUTTON0
+Text Label 8050 4350 0    60   ~ 0
+BUTTON1
+Text Label 8050 4450 0    60   ~ 0
+BUTTON2
+Text Label 8050 4550 0    60   ~ 0
+BUTTON3
+Text Label 8050 4650 0    60   ~ 0
+BUTTON4
+Text HLabel 8450 2150 2    60   Input ~ 0
+SWITCH0
+Entry Wire Line
+	8600 5250 8700 5350
+Entry Wire Line
+	8700 5250 8800 5350
+Entry Wire Line
+	8800 5250 8900 5350
+Entry Wire Line
+	8900 5250 9000 5350
+Entry Wire Line
+	9000 5250 9100 5350
+Text HLabel 9650 5350 2    60   Input ~ 0
+BUTTON[0..4]
+Entry Wire Line
+	9950 2000 10050 1900
+Entry Wire Line
+	10050 2000 10150 1900
+Entry Wire Line
+	10150 2000 10250 1900
+Entry Wire Line
+	10250 2000 10350 1900
+Text HLabel 10500 1900 2    60   Output ~ 0
+DIGIT[0..3]
+Entry Wire Line
+	9000 1600 9100 1500
+Entry Wire Line
+	9100 1600 9200 1500
+Entry Wire Line
+	9200 1600 9300 1500
+Entry Wire Line
+	9300 1600 9400 1500
+Entry Wire Line
+	9400 1600 9500 1500
+Entry Wire Line
+	9500 1600 9600 1500
+Entry Wire Line
+	9600 1600 9700 1500
+Entry Wire Line
+	9700 1600 9800 1500
+Text HLabel 9650 5550 2    60   Output ~ 0
+BUZZER
+Text HLabel 9950 1500 2    60   Output ~ 0
+SEG[0..7]
+$Comp
+L Crystal Y1
+U 1 1 5727B7E3
+P 3050 4250
+F 0 "Y1" H 3050 4400 50  0000 C CNN
+F 1 "8.0MHZ" H 3050 4100 50  0000 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 3050 4250 50  0001 C CNN
+F 3 "" H 3050 4250 50  0000 C CNN
+F 4 "http://fr.farnell.com/fox-electronics/foxslf-080-20/crystal-8-0mhz-20pf/dp/2063945" H 3050 4250 60  0001 C CNN "buy"
+F 5 "0.412" H 3050 4250 60  0001 C CNN "price"
+	1    3050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5350 5550 5600
+Wire Wire Line
+	5550 5550 5650 5550
+Wire Wire Line
+	5650 5550 5650 5350
+Connection ~ 5550 5550
+Wire Wire Line
+	2850 1450 3750 1450
+Wire Wire Line
+	2850 2050 2850 2200
+Wire Wire Line
+	3100 1450 3100 1750
+Connection ~ 3100 1450
+Wire Wire Line
+	3100 2050 3100 2150
+Wire Wire Line
+	3100 2150 2850 2150
+Connection ~ 2850 2150
+Wire Wire Line
+	4700 800  4700 1200
+Wire Wire Line
+	4250 1100 4250 1200
+Connection ~ 4700 1100
+Wire Wire Line
+	4250 1500 4250 1700
+Wire Wire Line
+	4700 1650 4700 1500
+Wire Wire Line
+	3850 1650 4700 1650
+Connection ~ 4250 1650
+Wire Wire Line
+	6000 800  6000 1200
+Wire Wire Line
+	6000 1500 6000 1650
+Wire Wire Line
+	6000 1650 6900 1650
+Wire Wire Line
+	6450 1500 6450 1700
+Wire Wire Line
+	6450 1100 6450 1200
+Connection ~ 6000 1100
+Connection ~ 6450 1650
+Wire Wire Line
+	3850 1200 3850 1100
+Connection ~ 4250 1100
+Wire Wire Line
+	3850 1650 3850 1500
+Wire Wire Line
+	6900 1650 6900 1500
+Wire Wire Line
+	6900 1100 6900 1200
+Connection ~ 6450 1100
+Wire Wire Line
+	3850 1100 5450 1100
+Wire Wire Line
+	5450 1100 5450 1950
+Wire Wire Line
+	5550 1100 6900 1100
+Wire Wire Line
+	5550 1100 5550 1950
+Wire Wire Line
+	7850 800  7850 1200
+Wire Wire Line
+	8300 1100 8300 1200
+Wire Wire Line
+	7400 1100 8300 1100
+Connection ~ 7850 1100
+Wire Wire Line
+	8300 1650 8300 1500
+Wire Wire Line
+	7850 1650 8300 1650
+Wire Wire Line
+	7850 1650 7850 1500
+Wire Wire Line
+	7400 1100 7400 1950
+Wire Wire Line
+	7400 1950 5750 1950
+Wire Wire Line
+	8100 1700 8100 1650
+Connection ~ 8100 1650
+Wire Wire Line
+	3750 2650 3350 2650
+Wire Wire Line
+	3350 2650 3350 2750
+Wire Wire Line
+	2650 2650 2850 2650
+Wire Wire Line
+	2400 2750 2850 2750
+Wire Wire Line
+	4300 6200 4400 6200
+Wire Wire Line
+	4400 6200 4400 6050
+Wire Wire Line
+	4300 6600 4400 6600
+Wire Wire Line
+	4400 6600 4400 6750
+Wire Wire Line
+	4300 6400 4450 6400
+Wire Wire Line
+	4300 6500 4450 6500
+Wire Wire Line
+	4300 6300 4450 6300
+Wire Wire Line
+	7350 3750 7950 3750
+Wire Wire Line
+	7350 3850 7950 3850
+Wire Wire Line
+	3200 4250 3750 4250
+Wire Wire Line
+	3500 4250 3500 4500
+Connection ~ 3500 4250
+Wire Wire Line
+	3500 4800 3500 5000
+Wire Wire Line
+	2550 4800 2550 5000
+Wire Wire Line
+	2550 4050 2550 4500
+Wire Wire Line
+	2550 4250 2900 4250
+Wire Wire Line
+	2550 4050 3750 4050
+Wire Wire Line
+	3750 4050 3750 4150
+Connection ~ 2550 4250
+Wire Wire Line
+	7350 3250 9950 3250
+Wire Wire Line
+	7350 3550 10250 3550
+Wire Wire Line
+	7350 3650 8450 3650
+Wire Wire Line
+	8450 3650 8450 2150
+Wire Wire Line
+	8600 5250 8600 4250
+Wire Wire Line
+	8700 5250 8700 4350
+Wire Wire Line
+	8800 5250 8800 4450
+Wire Wire Line
+	8900 5250 8900 4550
+Wire Wire Line
+	9000 5250 9000 4650
+Wire Bus Line
+	8700 5350 9650 5350
+Wire Wire Line
+	9950 3250 9950 2000
+Wire Wire Line
+	10050 4750 10050 2000
+Wire Wire Line
+	10150 4850 10150 2000
+Wire Wire Line
+	10250 3550 10250 2000
+Wire Bus Line
+	10050 1900 10500 1900
+Wire Bus Line
+	9100 1500 9950 1500
+Wire Wire Line
+	7450 5550 9650 5550
+Wire Wire Line
+	9000 2450 9000 1600
+Wire Wire Line
+	7350 2550 9100 2550
+Wire Wire Line
+	9100 2550 9100 1600
+Wire Wire Line
+	7350 2650 9200 2650
+Wire Wire Line
+	9200 2650 9200 1600
+Wire Wire Line
+	7350 2750 9300 2750
+Wire Wire Line
+	9300 2750 9300 1600
+Wire Wire Line
+	9400 1600 9400 3950
+Wire Wire Line
+	9500 1600 9500 2950
+Wire Wire Line
+	9500 2950 7350 2950
+Wire Wire Line
+	9600 1600 9600 3050
+Wire Wire Line
+	9600 3050 7350 3050
+Wire Wire Line
+	9700 1600 9700 3150
+Wire Wire Line
+	9700 3150 7350 3150
+Wire Wire Line
+	7350 2450 9000 2450
+Wire Wire Line
+	3750 1450 3750 2450
+Wire Wire Line
+	8600 4250 7350 4250
+Wire Wire Line
+	8700 4350 7350 4350
+Wire Wire Line
+	8800 4450 7350 4450
+Wire Wire Line
+	8900 4550 7350 4550
+Wire Wire Line
+	9000 4650 7350 4650
+$Comp
+L CONN_01X04 P6
+U 1 1 575F1BFA
+P 1500 6400
+F 0 "P6" H 1500 6650 50  0000 C CNN
+F 1 "CONN_01X04" V 1600 6400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 1500 6400 50  0001 C CNN
+F 3 "" H 1500 6400 50  0000 C CNN
+	1    1500 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 4850 10150 4850
+Wire Wire Line
+	7350 4750 10050 4750
+Text Label 7550 3350 0    60   ~ 0
+TX
+Text Label 7550 3450 0    60   ~ 0
+RX
+Wire Wire Line
+	1700 6550 2050 6550
+Wire Wire Line
+	1700 6450 2050 6450
+Text Label 1800 6550 0    60   ~ 0
+RX
+Text Label 1800 6450 0    60   ~ 0
+TX
+Wire Wire Line
+	1700 6350 2300 6350
+Wire Wire Line
+	2300 6350 2300 6700
+Wire Wire Line
+	1700 6250 2300 6250
+Wire Wire Line
+	2300 6250 2300 6000
+$Comp
+L +5V #PWR029
+U 1 1 575F20A4
+P 2300 6000
+F 0 "#PWR029" H 2300 5850 50  0001 C CNN
+F 1 "+5V" H 2300 6140 50  0000 C CNN
+F 2 "" H 2300 6000 50  0000 C CNN
+F 3 "" H 2300 6000 50  0000 C CNN
+	1    2300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 575F20EB
+P 2300 6700
+F 0 "#PWR030" H 2300 6450 50  0001 C CNN
+F 1 "GND" H 2300 6550 50  0000 C CNN
+F 2 "" H 2300 6700 50  0000 C CNN
+F 3 "" H 2300 6700 50  0000 C CNN
+	1    2300 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3950 7350 3950
+Wire Wire Line
+	7350 2850 7450 2850
+Wire Wire Line
+	7450 2850 7450 5550
+Wire Wire Line
+	7350 3350 7800 3350
+Wire Wire Line
+	7350 3450 7800 3450
+$EndSCHEMATC

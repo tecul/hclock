@@ -1,0 +1,271 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:prj
+LIBS:capteurs
+LIBS:hclock-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title "hclock"
+Date "2016-05-05"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_PUSH SW5
+U 1 1 572485E4
+P 7650 4100
+F 0 "SW5" H 7800 4210 50  0000 C CNN
+F 1 "SW_PUSH" H 7650 4020 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 7650 4100 50  0001 C CNN
+F 3 "" H 7650 4100 50  0000 C CNN
+	1    7650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 57248603
+P 7300 4100
+F 0 "SW4" H 7450 4210 50  0000 C CNN
+F 1 "SW_PUSH" H 7300 4020 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 7300 4100 50  0001 C CNN
+F 3 "" H 7300 4100 50  0000 C CNN
+	1    7300 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW3
+U 1 1 5724861A
+P 6950 4100
+F 0 "SW3" H 7100 4210 50  0000 C CNN
+F 1 "SW_PUSH" H 6950 4020 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 6950 4100 50  0001 C CNN
+F 3 "" H 6950 4100 50  0000 C CNN
+	1    6950 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 57248635
+P 6600 4100
+F 0 "SW2" H 6750 4210 50  0000 C CNN
+F 1 "SW_PUSH" H 6600 4020 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 6600 4100 50  0001 C CNN
+F 3 "" H 6600 4100 50  0000 C CNN
+	1    6600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 57248652
+P 6200 4100
+F 0 "SW1" H 6350 4210 50  0000 C CNN
+F 1 "SW_PUSH" H 6200 4020 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 6200 4100 50  0001 C CNN
+F 3 "" H 6200 4100 50  0000 C CNN
+	1    6200 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4900 8600 4900
+Wire Wire Line
+	7650 4900 7650 4400
+Wire Wire Line
+	7300 4900 7300 4400
+Connection ~ 7650 4900
+Wire Wire Line
+	6950 4900 6950 4400
+Connection ~ 7300 4900
+Wire Wire Line
+	6600 4900 6600 4400
+Connection ~ 6950 4900
+Wire Wire Line
+	6200 4900 6200 4400
+Connection ~ 6600 4900
+Wire Wire Line
+	2800 3600 3900 3600
+Text Label 2850 3200 0    60   ~ 0
+BUTTON0
+Text Label 2850 3300 0    60   ~ 0
+BUTTON1
+Text Label 2850 3400 0    60   ~ 0
+BUTTON2
+Text Label 2850 3500 0    60   ~ 0
+BUTTON3
+Text Label 2850 3600 0    60   ~ 0
+BUTTON4
+Wire Wire Line
+	2800 3500 3900 3500
+Wire Wire Line
+	2800 3400 3900 3400
+Wire Wire Line
+	2800 3300 3900 3300
+Wire Wire Line
+	2800 3200 3900 3200
+Entry Wire Line
+	2700 3500 2800 3600
+Entry Wire Line
+	2700 3400 2800 3500
+Entry Wire Line
+	2700 3300 2800 3400
+Entry Wire Line
+	2700 3200 2800 3300
+Entry Wire Line
+	2700 3100 2800 3200
+$Comp
+L Switch_SPDT_x2 SW7
+U 1 1 5724949B
+P 8900 3850
+F 0 "SW7" H 8700 4000 50  0000 C CNN
+F 1 "OS102011MS2QS1" H 8600 3700 50  0000 C CNN
+F 2 "foot:OS102011MS2QS1" H 8900 3850 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1839844.pdf" H 8900 3850 50  0001 C CNN
+F 4 "http://fr.farnell.com/c-k-components/os102011ms2qs1/commut-emission-laterale-shorting/dp/2435105" H 8900 3850 60  0001 C CNN "buy"
+F 5 "0.385" H 8900 3850 60  0001 C CNN "price"
+	1    8900 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8600 4900 8600 3950
+Wire Wire Line
+	3900 3700 3000 3700
+Text HLabel 3000 3700 0    60   Output ~ 0
+SWITCH0
+Text HLabel 2700 2700 1    60   Output ~ 0
+BUTTON[0..4]
+Wire Wire Line
+	8000 4900 8000 5100
+Connection ~ 8000 4900
+Wire Bus Line
+	2700 2700 2700 3500
+Wire Wire Line
+	6200 3200 6200 3800
+Wire Wire Line
+	6600 3300 6600 3800
+Wire Wire Line
+	6950 3400 6950 3800
+Wire Wire Line
+	7650 3600 7650 3800
+Wire Wire Line
+	8600 3000 8600 3750
+NoConn ~ 3550 5650
+$Comp
+L CONN_01X08 P7
+U 1 1 5766BCD8
+P 4100 3550
+F 0 "P7" H 4100 4000 50  0000 C CNN
+F 1 "CONN_01X08" V 4200 3550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 4100 3550 50  0001 C CNN
+F 3 "" H 4100 3550 50  0000 C CNN
+	1    4100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P8
+U 1 1 5766BD27
+P 4800 3550
+F 0 "P8" H 4800 4000 50  0000 C CNN
+F 1 "CONN_01X08" V 4900 3550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 4800 3550 50  0001 C CNN
+F 3 "" H 4800 3550 50  0000 C CNN
+	1    4800 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3900 3800 3900
+Wire Wire Line
+	3800 3900 3800 4050
+$Comp
+L GND #PWR013
+U 1 1 5766C01C
+P 3800 4050
+F 0 "#PWR013" H 3800 3800 50  0001 C CNN
+F 1 "GND" H 3800 3900 50  0000 C CNN
+F 2 "" H 3800 4050 50  0000 C CNN
+F 3 "" H 3800 4050 50  0000 C CNN
+	1    3800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3800 3800 3800
+Wire Wire Line
+	3800 3800 3800 2850
+$Comp
+L +3V3 #PWR014
+U 1 1 5766C090
+P 3800 2850
+F 0 "#PWR014" H 3800 2700 50  0001 C CNN
+F 1 "+3V3" H 3800 2990 50  0000 C CNN
+F 2 "" H 3800 2850 50  0000 C CNN
+F 3 "" H 3800 2850 50  0000 C CNN
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3900 5200 5100
+Wire Wire Line
+	5200 5100 8000 5100
+Wire Wire Line
+	7300 3500 7300 3800
+Wire Wire Line
+	6200 3200 5000 3200
+Wire Wire Line
+	6600 3300 5000 3300
+Wire Wire Line
+	6950 3400 5000 3400
+Wire Wire Line
+	7300 3500 5000 3500
+Wire Wire Line
+	7650 3600 5000 3600
+Wire Wire Line
+	5200 3900 5000 3900
+Wire Wire Line
+	5000 3700 5100 3700
+Wire Wire Line
+	5100 3700 5100 5200
+Wire Wire Line
+	5100 5200 9450 5200
+Wire Wire Line
+	9450 5200 9450 3850
+Wire Wire Line
+	9450 3850 9200 3850
+Wire Wire Line
+	5000 3800 5000 3000
+Wire Wire Line
+	5000 3000 8600 3000
+$EndSCHEMATC

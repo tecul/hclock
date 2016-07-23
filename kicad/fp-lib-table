@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name foot)(type KiCad)(uri "$(KIPRJMOD)/lib/foot.pretty")(options "")(descr ""))
+  (lib (name hdsp)(type KiCad)(uri "$(KIPRJMOD)/hdsp.pretty")(options "")(descr ""))
+)

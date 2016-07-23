@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/mike/project/hclock/kicad/hclock.sch</source>
+    <date>dim. 08 mai 2016 15:25:31 CEST</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>hclock</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2016-05-05</date>
+        <source>hclock.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/571FD587/">
+      <title_block>
+        <title>hclock</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2016-05-05</date>
+        <source>file571FD586.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/display/" tstamps="/5720D2BC/">
+      <title_block>
+        <title>hclock</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2016-05-05</date>
+        <source>file5720D2BB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/buzzer/" tstamps="/57226350/">
+      <title_block>
+        <title>hclock</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2016-05-05</date>
+        <source>file5722634F.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/button/" tstamps="/572483E4/">
+      <title_block>
+        <title>hclock</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2016-05-05</date>
+        <source>file572483E3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/micro/" tstamps="/572496CE/">
+      <title_block>
+        <title>hclock</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2016-05-05</date>
+        <source>file572496CD.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uf</value>
+      <footprint>Discret:C1V8</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>57209050</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117AV33</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1732936.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/stmicroelectronics/ld1117av33/regulateur-ldo-3-3v-1117-to-220/dp/1087165?ost=LD1117AV33&amp;selectedCategoryId=&amp;categoryNameResp=Toutes%2Bles%2Bcat%25C3%25A9gories</field>
+        <field name="price">0.538</field>
+      </fields>
+      <libsource lib="prj" part="LD1117AV33"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>5720629D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>500</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>5720C8B5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED rouge</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>5720CA5E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>5720CCAF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED rouge</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>5720CCB5</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_02X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1712126.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/harwin/m20-9980346/embase-2-rangees-3-voies/dp/1022231</field>
+        <field name="price">0.158</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>5724F60E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USB_OTG</value>
+      <footprint>Connect:USB_Mini-B</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2038798.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/molex/67503-1020/embase-mini-usb-2-0-otg-type-b/dp/1125348</field>
+        <field name="price">0.469</field>
+      </fields>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/power/" tstamps="/571FD587/"/>
+      <tstamp>571FDB7B</tstamp>
+    </comp>
+    <comp ref="AFF1">
+      <value>HDSP-B04E</value>
+      <footprint>Displays_7-Segment:Cx56-12</footprint>
+      <datasheet>http://www.farnell.com/datasheets/95222.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/broadcom-limited/hdsp-b04e/module-horloge-0-56-4-dig-rouge/dp/1003346?ost=HDSP-B04E&amp;selectedCategoryId=&amp;categoryNameResp=Toutes%2Bles%2Bcat%25C3%25A9gories</field>
+        <field name="price">3.47</field>
+      </fields>
+      <libsource lib="prj" part="HDSP-B04E"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5720D785</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>572118BC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57211953</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57211978</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>572119AF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>572119F9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57211A3C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57211A7F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57211ABC</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A3CA</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A46D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A4B2</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1300</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A4F2</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A7DF</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A866</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A8BD</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>5723A909</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PNP BC557BTF</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2016215.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/fairchild-semiconductor/bc557btf/transistor-bipol-pnp-45v-to-92/dp/2453805</field>
+        <field name="price">0.054</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_CBE"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>572609D3</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PNP BC557BTF</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2016215.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/fairchild-semiconductor/bc557btf/transistor-bipol-pnp-45v-to-92/dp/2453805</field>
+        <field name="price">0.054</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_CBE"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57260FC6</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PNP BC557BTF</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2016215.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/fairchild-semiconductor/bc557btf/transistor-bipol-pnp-45v-to-92/dp/2453805</field>
+        <field name="price">0.054</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_CBE"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57261031</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>PNP BC557BTF</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2016215.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/fairchild-semiconductor/bc557btf/transistor-bipol-pnp-45v-to-92/dp/2453805</field>
+        <field name="price">0.054</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_CBE"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>572610A1</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED alarm</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/display/" tstamps="/5720D2BC/"/>
+      <tstamp>57290310</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>PKM22EPPH4002-B0</value>
+      <footprint>Buzzers_Beepers:BUZZER</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1851881.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/murata/pkm22epph4002-b0/buzzer-piezo-4khz-drive-ext/dp/2443202?ost=PKM22EPPH4002-B0&amp;selectedCategoryId=&amp;categoryNameResp=Toutes%2Bles%2Bcat%25C3%25A9gories</field>
+        <field name="price">0.634</field>
+      </fields>
+      <libsource lib="prj" part="Buzzer"/>
+      <sheetpath names="/buzzer/" tstamps="/57226350/"/>
+      <tstamp>57248042</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1000</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/buzzer/" tstamps="/57226350/"/>
+      <tstamp>5724815B</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>572485E4</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>57248603</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>5724861A</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>57248635</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>57248652</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>57248808</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>57248831</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>57248866</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>572488A3</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Discret:R4</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>572488D8</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>OS102011MS2QS1</value>
+      <footprint>foot:OS102011MS2QS1</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1839844.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/c-k-components/os102011ms2qs1/commut-emission-laterale-shorting/dp/2435105</field>
+        <field name="price">0.385</field>
+      </fields>
+      <libsource lib="device" part="Switch_SPDT_x2"/>
+      <sheetpath names="/button/" tstamps="/572483E4/"/>
+      <tstamp>5724949B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>STM32F030K6</value>
+      <footprint>Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1883133.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/stmicroelectronics/stm32f030k6t6/mcu-32-bits-cortex-m0-48mhz-lqfp/dp/2432085?ost=STM32F030K6&amp;selectedCategoryId=&amp;categoryNameResp=Toutes%2Bles%2Bcat%25C3%25A9gories</field>
+        <field name="price">1.30</field>
+      </fields>
+      <libsource lib="stm32" part="STM32F030K6"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>572496D7</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724B36F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724B4F2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724B69A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4.7uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="buy">http://fr.farnell.com/multicomp/mc0603x475k6r3ct/condensateur-mlcc-x5r-4-7uf-6/dp/2320811?selectedCategoryId=&amp;exaMfpn=true&amp;categoryId=&amp;searchRef=SearchLookAhead</field>
+        <field name="Field5">0.0514</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724B717</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724B9A7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724BA3B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724BBA7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724BC60</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10nf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724C035</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D6_P5</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1723229.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/multicomp/mcmlr50v105my5v/condensateur-ceramique-y5v-1uf/dp/2112910</field>
+        <field name="Field5">0.428</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724C09E</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_02X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x02</footprint>
+      <datasheet>http://www.farnell.com/datasheets/683533.pdf</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/global-connector-technology/bg040-04-a-0450-0300-n-g/board-board-connector-header-4way/dp/1798962?ost=XG8T-0441&amp;selectedCategoryId=&amp;categoryNameResp=Toutes%2Bles%2Bcat%25C3%25A9gories</field>
+        <field name="price">0.175</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X02"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724C4F6</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X05</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x05</footprint>
+      <datasheet>http://www.harwin.com/include/downloads/drawings/M20-999.PDF</datasheet>
+      <fields>
+        <field name="buy">http://fr.farnell.com/harwin/m20-9990546/embase-1-rangee-5-voies/dp/1022253</field>
+        <field name="price">0.121</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724CA62</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22pf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724D7BC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22pf</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5724D81B</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8.0MHZ</value>
+      <footprint>Crystals:Crystal_HC49-U_Vertical</footprint>
+      <fields>
+        <field name="buy">http://fr.farnell.com/fox-electronics/foxslf-080-20/crystal-8-0mhz-20pf/dp/2063945</field>
+        <field name="price">0.412</field>
+      </fields>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>5727B7E3</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>572F3EA6</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>572F40CA</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>572F4139</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/micro/" tstamps="/572496CE/"/>
+      <tstamp>572F418C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="prj" part="Buzzer">
+      <description>PKM22EPPH4002-B0</description>
+      <docs>http://www.farnell.com/datasheets/1851881.pdf</docs>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Buzzer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <description>Connector 01x08</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X02">
+      <description>Connector 02x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X02</fp>
+        <fp>Pin_Header_Angled_2X02</fp>
+        <fp>Socket_Strip_Straight_2X02</fp>
+        <fp>Socket_Strip_Angled_2X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="prj" part="HDSP-B04E">
+      <description>BROADCOM LIMITED HDSP-B04E 4 x 7-segment common anode display</description>
+      <docs>http://www.farnell.com/datasheets/95222.pdf</docs>
+      <footprints>
+        <fp>Cx56-12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">AFF</field>
+        <field name="Value">HDSP-B04E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="e" type="input"/>
+        <pin num="2" name="d" type="input"/>
+        <pin num="3" name="DP" type="input"/>
+        <pin num="4" name="c" type="input"/>
+        <pin num="5" name="g" type="input"/>
+        <pin num="6" name="CA4" type="input"/>
+        <pin num="7" name="b" type="input"/>
+        <pin num="8" name="CA3" type="input"/>
+        <pin num="9" name="CA2" type="input"/>
+        <pin num="10" name="f" type="input"/>
+        <pin num="11" name="a" type="input"/>
+        <pin num="12" name="CA1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="prj" part="LD1117AV33">
+      <description>Low drop fixed 3.3v positive voltage regulator</description>
+      <docs>http://www.farnell.com/datasheets/1732936.pdf</docs>
+      <footprints>
+        <fp>TO-220</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117AV33</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="power_in"/>
+        <pin num="2" name="OUTPUT" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PNP_CBE">
+      <description>Transistor PNP (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_CBE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32" part="STM32F030K6">
+      <description>32-bit ARM Cortex-M0 Microcontroller, 48MHz, 32KB Flash, 4KB RAM, RTC, LQFP32</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F030K6</field>
+        <field name="Footprint">LQFP-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PF0/OSC_IN" type="BiDi"/>
+        <pin num="3" name="PF1/OSC_OUT" type="BiDi"/>
+        <pin num="4" name="~NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="WKUP1/RTC_TAMP2/ADC_IN0/USART1_CTS/PA0" type="BiDi"/>
+        <pin num="7" name="ADC1_IN1/USART1_RTS/EVENTOUT/PA1" type="BiDi"/>
+        <pin num="8" name="ADC1_IN2/USART1_TX/PA2" type="BiDi"/>
+        <pin num="9" name="ADC1_IN3/USART1_TX/PA3" type="BiDi"/>
+        <pin num="10" name="SPI1_NSS/USART1_CK/ADC_IN4/TIM14_CH1/PA4" type="BiDi"/>
+        <pin num="11" name="SPI1_SCK/ADC1_IN5/PA5" type="BiDi"/>
+        <pin num="12" name="SPI1_MISO/TIM3_CH1/TIM1_BKIN/ADC_IN6/TIM16_CH1/EVENTOUT/PA6" type="BiDi"/>
+        <pin num="13" name="SPI1_MOSI/TIM3_CH2/TIM14_CH1/TIM1_CH1N/ADC_IN7/TIM17_CH1/EVENTOUT/PA7" type="BiDi"/>
+        <pin num="14" name="ADC1_IN8/TIM3_CH3/TIM1_CH2N/EVENTOUT/PB0" type="BiDi"/>
+        <pin num="15" name="ADC1_IN9/TIM3_CH4/TIM14_CH1/TIM1_CH3N/PB1" type="BiDi"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="USART1_CK/TIM1_CH1/MCO/EVENTOUT/PA8" type="BiDi"/>
+        <pin num="19" name="USART1_TX/TIM1_CH2/I2C1_SCL/PA9" type="BiDi"/>
+        <pin num="20" name="USART1_RX/TIM1_CH3/TIM17_BKIN/I2C1_SDA/PA10" type="BiDi"/>
+        <pin num="21" name="USART1_CTS/TIM1_CH4/EVENTOUT/PA11" type="BiDi"/>
+        <pin num="22" name="USART1_RTS/TIM1_ETR/EVENTOUT/PA12" type="BiDi"/>
+        <pin num="23" name="IR_OUT/SWDAT/PA13" type="BiDi"/>
+        <pin num="24" name="USART1_TX/SWCLK/PA14" type="BiDi"/>
+        <pin num="25" name="SPI1_NSS/USART1_RX/EVENTOUT/PA15" type="BiDi"/>
+        <pin num="26" name="SPI1_SCK/EVENTOUT/PB3" type="BiDi"/>
+        <pin num="27" name="SPI1_MISO/TIM3_CH1/EVENTOUT/PB4" type="BiDi"/>
+        <pin num="28" name="SPI1_MOSI/I2C1_SMBA/TIM16_BKIN/TIM3_CH2/PB5" type="BiDi"/>
+        <pin num="29" name="I2C1_SCL/USART1_TX/TIM16_CH1N/PB6" type="BiDi"/>
+        <pin num="30" name="I2C1_SDA/USART1_RX/TIM17_CH1N/PB7" type="BiDi"/>
+        <pin num="31" name="BOOT0" type="input"/>
+        <pin num="32" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Switch_SPDT_x2">
+      <description>Double Single Pole Double Throw (SPDT) switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch_SPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="stm32">
+      <uri>/usr/share/kicad/library/stm32.lib</uri>
+    </library>
+    <library logical="prj">
+      <uri>/home/mike/project/hclock/kicad/lib/prj.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/buzzer/BUZZER">
+      <node ref="U2" pin="25"/>
+      <node ref="R19" pin="1"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="2" name="/button/SWITCH0">
+      <node ref="U2" pin="22"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="P7" pin="6"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="Q3" pin="3"/>
+      <node ref="R21" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R22" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P3" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="P5" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="SW7" pin="3"/>
+      <node ref="U2" pin="17"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P8" pin="7"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="P5" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="SW5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="P4" pin="5"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="32"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P2" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="P6" pin="8"/>
+      <node ref="C8" pin="2"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="P8" pin="8"/>
+    </net>
+    <net code="9" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(Q3-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q4-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="13" name="Net-(AFF1-Pad2)">
+      <node ref="AFF1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="14" name="Net-(AFF1-Pad8)">
+      <node ref="AFF1" pin="8"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(AFF1-Pad9)">
+      <node ref="Q2" pin="1"/>
+      <node ref="AFF1" pin="9"/>
+    </net>
+    <net code="16" name="Net-(AFF1-Pad12)">
+      <node ref="D3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="AFF1" pin="12"/>
+    </net>
+    <net code="17" name="Net-(Q2-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="18" name="Net-(AFF1-Pad11)">
+      <node ref="AFF1" pin="11"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(AFF1-Pad7)">
+      <node ref="R4" pin="1"/>
+      <node ref="AFF1" pin="7"/>
+    </net>
+    <net code="20" name="Net-(AFF1-Pad4)">
+      <node ref="AFF1" pin="4"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="21" name="Net-(AFF1-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="AFF1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(AFF1-Pad10)">
+      <node ref="AFF1" pin="10"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="23" name="Net-(AFF1-Pad5)">
+      <node ref="AFF1" pin="5"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="24" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="25" name="Net-(AFF1-Pad3)">
+      <node ref="R10" pin="1"/>
+      <node ref="AFF1" pin="3"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="26" name="Net-(AFF1-Pad6)">
+      <node ref="Q4" pin="1"/>
+      <node ref="AFF1" pin="6"/>
+    </net>
+    <net code="27" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C4-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="29" name="Net-(P3-Pad2)">
+      <node ref="U2" pin="31"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="30" name="Net-(C3-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="31" name="/micro/P30">
+      <node ref="P8" pin="6"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="32" name="/micro/P29">
+      <node ref="P8" pin="5"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="33" name="Net-(P5-Pad5)">
+      <node ref="P5" pin="5"/>
+    </net>
+    <net code="34" name="Net-(P5-Pad4)">
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="35" name="/micro/P23">
+      <node ref="P4" pin="4"/>
+      <node ref="P7" pin="7"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="36" name="/micro/P24">
+      <node ref="P7" pin="8"/>
+      <node ref="U2" pin="24"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="37" name="/micro/RESET">
+      <node ref="P4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="38" name="/micro/P8">
+      <node ref="P5" pin="8"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="39" name="/button/BUTTON2">
+      <node ref="P8" pin="2"/>
+      <node ref="U2" pin="26"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="40" name="/button/BUTTON3">
+      <node ref="SW4" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U2" pin="27"/>
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="41" name="/button/BUTTON4">
+      <node ref="U2" pin="28"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="P8" pin="4"/>
+    </net>
+    <net code="42" name="/display/DIGIT0">
+      <node ref="R18" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="R11" pin="2"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="43" name="/display/DIGIT1">
+      <node ref="U2" pin="19"/>
+      <node ref="R17" pin="2"/>
+      <node ref="P7" pin="3"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="44" name="/display/DIGIT2">
+      <node ref="R13" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="45" name="/display/DIGIT3">
+      <node ref="U2" pin="21"/>
+      <node ref="R14" pin="2"/>
+      <node ref="P7" pin="5"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="46" name="/micro/P6">
+      <node ref="U2" pin="6"/>
+      <node ref="R3" pin="2"/>
+      <node ref="P5" pin="6"/>
+    </net>
+    <net code="47" name="/micro/P7">
+      <node ref="U2" pin="7"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P5" pin="7"/>
+    </net>
+    <net code="48" name="/micro/P9">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="49" name="/micro/P10">
+      <node ref="R7" pin="2"/>
+      <node ref="P6" pin="2"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="50" name="/micro/P11">
+      <node ref="U2" pin="11"/>
+      <node ref="P6" pin="3"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="51" name="/micro/P12">
+      <node ref="P6" pin="4"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="52" name="/micro/P13">
+      <node ref="U2" pin="13"/>
+      <node ref="P6" pin="5"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="53" name="/button/BUTTON0">
+      <node ref="P6" pin="6"/>
+      <node ref="U2" pin="14"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="54" name="/button/BUTTON1">
+      <node ref="U2" pin="15"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="P6" pin="7"/>
+      <node ref="R21" pin="2"/>
+    </net>
+  </nets>
+</export>

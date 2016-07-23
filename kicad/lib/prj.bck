@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Buzzer
+D PKM22EPPH4002-B0
+F http://www.farnell.com/datasheets/1851881.pdf
+$ENDCMP
+#
+$CMP HDSP-B04E
+D BROADCOM LIMITED HDSP-B04E 4 x 7-segment common anode display
+K 7 SEGMENTS 4 display
+F http://www.farnell.com/datasheets/95222.pdf
+$ENDCMP
+#
+$CMP LD1117AS33TR
+D Low drop fixed 3.3v positive voltage regulator
+F http://www.farnell.com/datasheets/1732936.pdf
+$ENDCMP
+#
+$CMP LD1117AV33
+D Low drop fixed 3.3v positive voltage regulator
+F http://www.farnell.com/datasheets/1732936.pdf
+$ENDCMP
+#
+#End Doc Library
